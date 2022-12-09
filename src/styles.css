@@ -2,262 +2,262 @@
 font-family: 'Poppins', sans-serif; */
 
 :root {
-    --branding-color: #d3a565;
-    --secondary-color: #f1f0ec;
-    --heading-font-family: "Playfair Display SC", serif;
-    --default-font-family: "Poppins", sans-serif;
-  }
-  body {
-    font-family: var(--default-font-family);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-  }
+  --branding-color: #d3a565;
+  --secondary-color: #f1f0ec;
+  --heading-font-family: "Playfair Display SC", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 76px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 38px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 38px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+.nav-name {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: #272142;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  background: white;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+
+.btn-branding-outline {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+
+  color: white;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
   h1 {
-    font-size: 76px;
+    font-size: 60px;
     line-height: 1.5;
   }
-  
+
   h2 {
-    font-size: 64px;
+    font-size: 44px;
   }
-  
-  h4 {
-    font-size: 38px;
-  }
-  
-  p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  
-  nav {
-    padding: 20px 0;
-  }
-  
-  nav ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline;
-    list-style: none;
-    line-height: 38px;
-    font-size: 16px;
-    margin-left: 15px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  nav a:hover,
-  nav li.active a {
-    color: var(--branding-color);
-    transition: all 150ms ease-in-out;
-  }
-  
-  .nav-name {
-    font-size: 22px;
-    font-weight: 500;
-    font-family: var(--default-font-family);
-  }
-  
-  .hero {
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 60px 20px;
-  }
-  
+
   .hero p {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
+    font-size: 26px;
   }
-  
+
   .hero h2 {
-    font-family: var(--default-font-family);
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
-    color: #272142;
-  }
-  
-  .btn-branding {
-    background: var(--branding-color);
-    border-radius: 4px;
-    color: white;
     font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-  }
-  
-  .btn-branding:hover {
-    background: white;
-    border: 1px solid var(--branding-color);
-    color: var(--branding-color);
-  }
-  
-  .btn-branding-outline {
-    background: white;
-    border-radius: 4px;
-    border: 1px solid var(--branding-color);
-    color: var(--branding-color);
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-  }
-  
-  .btn-branding-outline:hover {
-    background: var(--branding-color);
-  
-    color: white;
-  }
-  
-  .project-description {
-    padding: 120px 60px;
-  }
-  
-  @media (max-width: 960px) {
-    h1 {
-      font-size: 60px;
-      line-height: 1.5;
-    }
-  
-    h2 {
-      font-size: 44px;
-    }
-  
-    .hero p {
-      font-size: 26px;
-    }
-  
-    .hero h2 {
-      font-size: 18px;
-      line-height: 1.5;
-    }
-    .hero {
-      padding: 80px 20px;
-    }
-  
-    .project-description {
-      padding: 0;
-      text-align: center;
-    }
-  
-    .content {
-      text-align: center;
-      padding: 0;
-    }
-    .nav-name {
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 18px;
-    }
-  
-    nav li {
-      line-height: 18px;
-      font-size: 14px;
-      margin-left: 10px;
-    }
-  
-    h4 {
-      font-size: 24px;
-    }
-  }
-  
-  .image-me {
-    border-radius: 10px;
-  }
-  
-  .content-container {
-    padding: 30px 30px;
-  }
-  
-  .content h1 {
-    font-size: 64px;
-    line-height: 80px;
-  }
-  
-  .content h2 {
-    font-size: 18px;
-    font-family: var(--default-font-family);
-  }
-  
-  .content h3 {
-    font-size: 24px;
-    font-family: var(--default-font-family);
     line-height: 1.5;
   }
-  
-  .content p {
-    font-size: 14px;
-    line-height: 20px;
+  .hero {
+    padding: 80px 20px;
   }
-  
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
   .content {
-    margin: 30px;
-  }
-  
-  footer {
     text-align: center;
+    padding: 0;
   }
-  
-  footer .contact-box {
-    background-color: var(--secondary-color);
-    padding: 60px 120px;
-    border-radius: 10px;
-    margin: 0;
-  }
-  
-  footer .email-link {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    text-align: center;
-  }
-  footer .contact-box p {
-    margin: 0;
-  }
-  
-  footer .email-link:hover {
-    color: var(--branding-color);
-    transition: all 150ms ease-in-out;
-  }
-  .social-links a {
-    color: var(--branding-color);
-    margin: 0px 20px;
+  .nav-name {
     font-size: 18px;
-    padding: 10px 15px;
-    background-color: var(--secondary-color);
-    border-radius: 50%;
+    font-weight: 500;
+    line-height: 18px;
   }
-  
-  .social-links a:hover {
-    background-color: var(--branding-color);
-    color: white;
-    transition: all 150ms ease-in-out;
+
+  nav li {
+    line-height: 18px;
+    font-size: 14px;
+    margin-left: 10px;
   }
-  
-  .social-links {
-    padding: 50px;
+
+  h4 {
+    font-size: 24px;
   }
-  
-  .content-links a {
-    color: var(--branding-color);
-  }
-  
-  .content-links a:hover {
-    color: var(--secondary-color);
-  }
+}
+
+.image-me {
+  border-radius: 10px;
+}
+
+.content-container {
+  padding: 30px 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content {
+  margin: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 60px 120px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+.social-links a {
+  color: var(--branding-color);
+  margin: 0px 20px;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: var(--branding-color);
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links {
+  padding: 50px;
+}
+
+.content-links a {
+  color: var(--branding-color);
+}
+
+.content-links a:hover {
+  color: var(--secondary-color);
+}
