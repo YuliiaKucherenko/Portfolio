@@ -129,9 +129,10 @@ nav li.active a {
   padding: 120px 60px;
 }
 
+
 @media (max-width: 960px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.5;
   }
 
@@ -164,7 +165,7 @@ nav li.active a {
     padding: 0;
   }
   .nav-name {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 18px;
   }
@@ -227,7 +228,7 @@ footer .contact-box {
 footer .email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
 footer .contact-box p {
